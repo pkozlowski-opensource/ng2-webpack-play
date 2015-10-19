@@ -1,4 +1,6 @@
-# ng-webpack-play
+# ng2-webpack-play
+
+A minimal Angular2 playground using TypeScript and WebPack
 
 ## Installation
 
