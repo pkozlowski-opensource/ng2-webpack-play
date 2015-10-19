@@ -1,27 +1,16 @@
 {
   "name": "ng-webpack-play",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pkozlowski-opensource/ng-webpack-play.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pkozlowski-opensource/ng-webpack-play/issues"
-  },
-  "homepage": "https://github.com/pkozlowski-opensource/ng-webpack-play#readme",
   "dependencies": {
     "angular2": "^2.0.0-alpha.44"
   },
   "devDependencies": {
     "ts-loader": "^0.5.6",
     "typescript": "^1.6.2",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "play": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   }
 }
