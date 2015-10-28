@@ -10,7 +10,7 @@
     "webpack-dev-server": "^1.12.1"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --display-modules",
     "play": "webpack-dev-server"
   }
 }
