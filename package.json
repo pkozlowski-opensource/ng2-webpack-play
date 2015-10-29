@@ -1,7 +1,7 @@
 {
   "name": "ng-webpack-play",
   "dependencies": {
-    "angular2": "^2.0.0-alpha.44"
+    "angular2": "^2.0.0-alpha.45"
   },
   "devDependencies": {
     "ts-loader": "^0.5.6",
